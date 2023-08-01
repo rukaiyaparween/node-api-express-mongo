@@ -4,7 +4,7 @@ const Model = require('../model/model');
 
 const router = express.Router()
 
-//Post Method
+//Post Method testing
 router.post('/post', async(req, res) => {
     const data = new Model({
         name: req.body.name,
